@@ -177,27 +177,27 @@ This baseline can be extended with:
 
 This project can be moved to Azure ML by:
 
-registering scripts/main.py as an Azure ML job
+* registering scripts/main.py as an Azure ML job
 
-attaching a pre-existing workspace
+* attaching a pre-existing workspace
 
-using Azure ML compute targets
+* using Azure ML compute targets
 
-logging metrics via MLflow
+* logging metrics via MLflow
 
-No refactoring of core logic is required.
+* No refactoring of core logic is required.
 
-🧠 Key Takeaways
+## 🧠 Key Takeaways
 
-Demonstrates production-style ML pipeline design
+* Demonstrates production-style ML pipeline design
 
-Separates infrastructure concerns from ML logic
+* Separates infrastructure concerns from ML logic
 
-Mirrors how ML projects are developed in enterprise Azure environments
+* Mirrors how ML projects are developed in enterprise Azure environments
 
-Fully reproducible and cloud-ready
+* Fully reproducible and cloud-ready
 
-📌 Next Improvements
+## 📌 Next Improvements
 
 Add MLflow experiment tracking
 
@@ -207,7 +207,7 @@ Introduce feature importance analysis
 
 Integrate CI/CD for model validation
 
-👤 Author
+## 👤 Author
 
 Marzieh Eskandari
 Master of Applied Science (Engineering)
