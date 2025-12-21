@@ -58,26 +58,25 @@ This mirrors how ML projects are developed in regulated or policy-restricted env
 -------------------------------------------------------------------------------------------------
 
 ## 🗂️ Project Structure
+
+```text
 Customer_Churn_Analysis/
-│
 ├── data/
 │   └── telco_churn.xlsx
-│
 ├── scripts/
 │   ├── main.py          # Pipeline entry point
 │   ├── preprocessing.py
 │   ├── train.py
 │   └── evaluate.py
-│
 ├── config/
 │   └── config.yaml      # Centralized configuration
-│
 ├── outputs/
 │   ├── model.pkl        # Trained model artifact
 │   └── metrics.json     # Evaluation results
-│
 ├── requirements.txt
 └── README.md
+```
+
 
 ## Design principles:
 
