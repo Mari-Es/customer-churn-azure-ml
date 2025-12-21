@@ -155,25 +155,25 @@ outputs/
 ├── model.pkl
 └── metrics.json
 
-📊 Model Output
+## 📊 Model Output
 
-Model: Logistic Regression
+* Model: Logistic Regression
 
-Metric: Accuracy (baseline)
+* Metric: Accuracy (baseline)
 
-Artifacts: Serialized model + evaluation metrics
+* Artifacts: Serialized model + evaluation metrics
 
 This baseline can be extended with:
 
-regularization tuning
+* regularization tuning
 
-tree-based models
+* tree-based models
 
-feature importance analysis
+* feature importance analysis
 
-experiment tracking
-
-🚀 Azure ML Migration Path
+* experiment tracking
+----------------------------------------------------------------------------------------------------------
+## 🚀 Azure ML Migration Path
 
 This project can be moved to Azure ML by:
 
