@@ -110,11 +110,11 @@ training:
 ```
 This approach ensures:
 
-reproducibility
+* reproducibility
 
-easy experimentation
+* easy experimentation
 
-cloud portability
+* cloud portability
 
 ## 🔄 Pipeline Flow
 
