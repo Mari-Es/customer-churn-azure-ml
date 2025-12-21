@@ -199,13 +199,13 @@ This project can be moved to Azure ML by:
 
 ## 📌 Next Improvements
 
-Add MLflow experiment tracking
+* Add MLflow experiment tracking
 
-Add confusion matrix and ROC curve
+* Add confusion matrix and ROC curve
 
-Introduce feature importance analysis
+* Introduce feature importance analysis
 
-Integrate CI/CD for model validation
+* Integrate CI/CD for model validation
 
 ## 👤 Author
 
