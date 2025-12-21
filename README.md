@@ -93,7 +93,7 @@ Customer_Churn_Analysis/
 ## ⚙️ Configuration-Driven Execution
 
 All parameters are defined in config/config.yaml:
-
+```
 project:
   name: customer_churn_ml
   version: 1.0
@@ -107,7 +107,7 @@ training:
   random_state: 42
   model: logistic_regression
 
-
+```
 This approach ensures:
 
 reproducibility
