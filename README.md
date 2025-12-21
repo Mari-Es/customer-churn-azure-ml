@@ -116,31 +116,31 @@ easy experimentation
 
 cloud portability
 
-🔄 Pipeline Flow
+## 🔄 Pipeline Flow
 
-Preprocessing
+1. Preprocessing
 
-Load Excel data
+* Load Excel data
 
-Encode target variable
+* Encode target variable
 
-One-hot encode categorical features
+* One-hot encode categorical features
 
-Split into train/test sets
+* Split into train/test sets
 
-Training
+2. Training
 
-Logistic Regression baseline model
+* Logistic Regression baseline model
 
-Model persistence using joblib
+* Model persistence using joblib
 
-Evaluation
+3. Evaluation
 
-Accuracy computation
+* Accuracy computation
 
-Metrics saved as JSON for tracking
+* Metrics saved as JSON for tracking
 
-▶️ How to Run
+## ▶️ How to Run
 1. Create environment
 pip install -r requirements.txt
 
