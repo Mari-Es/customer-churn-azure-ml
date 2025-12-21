@@ -15,6 +15,7 @@ The focus is on:
 
 The solution predicts whether a customer is likely to churn based on demographic, service usage, and contract-related features.
 
+-----------------------------------------------------------------------------------
 🎯 Problem Statement
 
 Customer churn is a critical business problem in marketing and subscription-based services.
