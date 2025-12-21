@@ -1,17 +1,17 @@
-Customer Churn Classification — Azure-Style ML Project
+# Customer Churn Classification — Azure-Style ML Project
 📌 Project Overview
 
 This project implements an end-to-end customer churn classification pipeline using Python and scikit-learn, designed following Azure Machine Learning (Azure ML) best practices.
 
 The focus is on:
 
-clean project structure
+* clean project structure
 
-configuration-driven pipelines
+* configuration-driven pipelines
 
-reproducibility
+* reproducibility
 
-cloud portability
+* cloud portability
 
 The solution predicts whether a customer is likely to churn based on demographic, service usage, and contract-related features.
 
