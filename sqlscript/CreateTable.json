@@ -1,0 +1,17 @@
+{
+	"name": "CreateTable",
+	"properties": {
+		"content": {
+			"query": "SET ANSI_NULLS ON\nGO\nSET QUOTED_IDENTIFIER ON\nGO\n\nCREATE TABLE [dbo].[Table]\n( \n\t[col1] [int]  NOT NULL\n)\nWITH\n(\n\tDISTRIBUTION = HASH ( [col1] ),\n\tCLUSTERED COLUMNSTORE INDEX\n)\nGO",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "sqlpool1",
+				"poolName": "sqlpool1"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
