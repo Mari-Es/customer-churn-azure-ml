@@ -1,0 +1,20 @@
+{
+	"name": "Explore the NYC Taxi Data",
+	"properties": {
+		"folder": {
+			"name": "NYC Taxi"
+		},
+		"content": {
+			"query": "",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
