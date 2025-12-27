@@ -476,13 +476,13 @@
 					"name": "NYC Taxi"
 				},
 				"content": {
-					"query": "",
+					"query": "SELECT PassengerCount,\nSUM(TripDistanceMiles) as SumTripDistance,\nAVG(TripDistanceMiles) as AvgTripDistance\n\nFROM dbo.Trip\nWHERE TripDistanceMiles > 0 AND PassengerCount > 0\nGROUP BY PassengerCount\nORDER BY PassengerCount",
 					"metadata": {
 						"language": "sql"
 					},
 					"currentConnection": {
-						"databaseName": "master",
-						"poolName": "Built-in"
+						"databaseName": "sqlpool1",
+						"poolName": "sqlpool1"
 					},
 					"resultLimit": 5000
 				},
